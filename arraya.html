@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrayas </title>
+</head>
+<body>
+    <div class="container">
+        <h1>Elementos de un Arrayas</h1>
+        <h2> id</h2>
+        <button onclick="addStart()">Agregar al Inicio</button>
+        <button onclick="addStart()">Agregar al Inicio</button>
+    </div>
+    <script>
+        const Arrayas = [];
+        const resultado = document.getElementById('resultado');
+        const box = document.getElementById('box');
+        resultado.innertText = miArray;
+
+        const addStart = () =>{
+            const dato = box.value;
+            miArray.unshift(dato);
+            resultado.innerText = miArray;
+        }
+        const subsEnd = () =>{
+            const  dato = miArray.pop();
+        salen.innerText = `Sale -> ${ dato}`;
+            resultado.innerText = miArray;
+        }
+        const addEnd = () =>{
+            const dato = box.value;
+            miArray.push
+        }
+
+    </script>
+
+</body>
+</html>
